@@ -1,3 +1,6 @@
 #index:
-#    path: /
+#    path: /index
 #    controller: App\Controller\DefaultController::index
+#aboutme:
+#  path: /about-me
+#  controller: App\Controller\LearningController::aboutme

@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+{% block title %}Hello {{ name }}{% endblock %}
+{% block body %}
+<h1>Hello {{ name }}</h1>
+<form action="{{ path('changeMyName') }}" method="post" name="input_form">
+    <label>Fill in your name here:<input type="text" name="input_user_name"></label>
+    <button type="submit">Take me home</button>
+</form>
+    <a href="{{ path('aboutMe') }}">My Home</a>
+{% endblock %}
